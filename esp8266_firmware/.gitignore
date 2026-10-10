@@ -1,0 +1,23 @@
+# Private device configuration — contains Wi-Fi credentials and backend address.
+# Never commit this file. Copy config.example.h to config.h and fill it in.
+config.h
+
+# Local secrets / scratch files
+.env
+secrets.h
+
+# Arduino / PlatformIO build artifacts
+build/
+.pio/
+.pioenvs/
+.piolibdeps/
+*.bin
+*.elf
+*.hex
+*.map
+
+# Editor / OS cruft
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
